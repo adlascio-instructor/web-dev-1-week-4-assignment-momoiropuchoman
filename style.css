@@ -1,7 +1,18 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+:root {
+  --text-base: #afb6c2;
+  --text-title: #d4ccb6;
+  --background: #191816;
+  --form-background: #24221f;
+  --primary-color: #ffc632;
+}
+
 body {
   margin: 0 0;
   background-color: black;
-  color: white;
+  font-size: 0.9rem;
+  font-family: "Poppins", sans-serif;
+  color: var(--text-base);
 }
 
 .login-area {
@@ -11,4 +22,22 @@ body {
 .logo-image {
   width: 40%;
   height: auto;
+}
+
+.login-title {
+  display: flex;
+  justify-content: flex-start;
+  gap: 0 0.5rem;
+  margin-top: 2rem;
+  width: 100%;
+  height: 1.8rem;
+  color: var(--text-title);
+}
+
+.login-title-text {
+  font-size: 1.5rem;
+}
+
+.login-message {
+  margin-top: 0.8rem;
 }/*# sourceMappingURL=style.css.map */
