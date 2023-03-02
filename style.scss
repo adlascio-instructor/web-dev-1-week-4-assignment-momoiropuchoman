@@ -1,4 +1,6 @@
-@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+
+
 :root {
   --text-base: #afb6c2;
   --text-title: #d4ccb6;
@@ -8,10 +10,10 @@
 }
 
 body {
-  margin: 0 0;
+  margin: 0 0;;
   background-color: black;
   font-size: 0.9rem;
-  font-family: "Poppins", sans-serif;
+  font-family: 'Poppins', sans-serif;
   color: var(--text-base);
 }
 
@@ -34,10 +36,43 @@ body {
   color: var(--text-title);
 }
 
+.login-title-image {
+  
+}
+
 .login-title-text {
   font-size: 1.5rem;
+  
 }
 
 .login-message {
   margin-top: 0.8rem;
-}/*# sourceMappingURL=style.css.map */
+}
+
+.input-label {
+
+}
+
+.input-form {
+
+}
+
+.remind-checkbox {
+
+}
+
+.forget-password-link {
+
+}
+
+.login-button {
+
+}
+
+.dont-have-account-text {
+
+}
+
+.sign-up-link {
+
+}
