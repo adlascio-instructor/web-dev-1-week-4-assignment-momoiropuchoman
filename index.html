@@ -8,41 +8,45 @@
     <title>Document</title>
   </head>
   <body>
-    <div class="login-area">
+    <div>
       <img class="logo-image" src="images/logo.svg">
-      <div class="login-title">
-        <img class="login-title-image" src="images/log-in.svg">
-        <div class="login-title-text">Login</div>
-      </div>
-      <div class="login-message">Insert your information below.</div>
-      <br>
-      E-mail
-      <fieldset class="input-field">
-        <img class="input-image" src="images/mail.svg">
-        <input class="input-textbox" type="email" name="email" pattern="*.*" placeholder="Type your email"/>
-      </fieldset>
-      <br>
-      Password
-      <fieldset class="input-field">
-        <img class="input-image" src="images/lock.svg">
-        <input class="input-textbox" type="password" name="password" pattern="[a-zA-Z0-9]" placeholder="Type your password"/>
-        <img class="password-visible-image" src="images/eye.svg">
-      </fieldset>
-
-      <div class="password-option">
-        <fieldset class="remind-field">
-          <input type="checkbox" id="remind" class="remind-checkbox">
-          <label for="remind">Remind me</label>
+      <div class="login-area">
+        <div class="login-title">
+          <img class="login-title-image" src="images/log-in.svg">
+          <div class="login-title-text">Login</div>
+        </div>
+        <div class="login-message">Insert your information below.</div>
+        <br>
+        E-mail
+        <fieldset class="input-field">
+          <img class="input-image" src="images/mail.svg">
+          <input class="input-textbox" type="email" name="email" pattern="*.*" placeholder="Type your email"/>
         </fieldset>
-        <div class="forget-password-link">Forgot my password</div>
-      </div>
+        <br>
+        Password
+        <fieldset class="input-field">
+          <img class="input-image" src="images/lock.svg">
+            <input class="input-textbox" type="password" name="password" pattern="[a-zA-Z0-9]" placeholder="Type your password">
+            <img class="password-visible-image" src="images/eye.svg">
+          </fieldset>
+        </fieldset>
 
-      <input type="button" value="LOGIN" class="login-button">
+        <div class="password-option">
+          <fieldset class="remind-field">
+            <input type="checkbox" id="remind" class="remind-checkbox">
+            <label for="remind">Remind me</label>
+          </fieldset>
+          <div class="forget-password-link">Forgot my password</div>
+        </div>
 
-      <div class="signup-line">
-        Don't have an account?
-        <a href="./sign-up.html" class="signup-link">Sign up!</a>
+        <input type="button" value="LOGIN" class="login-button">
+
+        <div class="signup-line">
+          Don't have an account?
+          <a href="./sign-up.html" class="signup-link">Sign up!</a>
+        </div>
       </div>
     </div>
+    <img class="side-image" src="images/side-image.jpg">
   </body>
 </html>
