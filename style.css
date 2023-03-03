@@ -75,4 +75,29 @@ body {
   position: absolute;
   right: 5%;
   top: auto;
+}
+
+.password-option {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remind-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 0.2rem;
+  border: none;
+  padding-left: 0;
+}
+
+.remind-checkbox {
+  transform: scale(1.5);
+  accent-color: var(--primary-color);
+}
+
+.forget-password-link {
+  color: var(--primary-color);
 }/*# sourceMappingURL=style.css.map */
