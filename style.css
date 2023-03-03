@@ -40,4 +40,90 @@ body {
 
 .login-message {
   margin-top: 0.8rem;
+}
+
+.input-field {
+  padding: 0 0;
+  background-color: var(--form-background);
+  border-radius: 5px;
+  border: 1px solid var(--text-base);
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.input-image {
+  width: 6%;
+  height: auto;
+}
+
+.input-textbox {
+  position: relative;
+  height: 2rem;
+  width: 85%;
+  background-color: var(--form-background);
+  border: none;
+  outline: none;
+  color: var(--text-base);
+}
+
+.password-visible-image {
+  width: 6%;
+  height: auto;
+  position: absolute;
+  right: 5%;
+  top: auto;
+}
+
+.password-option {
+  margin-top: 0.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.remind-field {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 0 0.2rem;
+  border: none;
+  padding-left: 0;
+}
+
+.remind-checkbox {
+  transform: scale(1.5);
+  accent-color: var(--primary-color);
+}
+
+.forget-password-link {
+  color: var(--primary-color);
+}
+
+.login-button {
+  width: 100%;
+  height: 3rem;
+  margin-top: 0.5rem;
+  background-color: var(--primary-color);
+  color: var(--background);
+  border-radius: 5px;
+  font-size: 1.1rem;
+}
+
+.signup-line {
+  margin-top: 0.5rem;
+  text-align: center;
+  color: var(--primary-color);
+}
+
+.signup-link {
+  color: var(--primary-color);
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.signup-link:visited {
+  color: var(--primary-color);
 }/*# sourceMappingURL=style.css.map */
