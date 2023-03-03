@@ -144,18 +144,24 @@ body {
     display: grid;
     grid-template-columns: 50% 50%;
   }
-  .side-image {
-    width: 100%;
+  .logo-image {
+    width: 7rem;
     height: auto;
+    margin-top: 4rem;
+    margin-left: 2rem;
   }
   .login-area {
-    width: 80%;
-    margin: 0 auto;
-    padding: 3rem 15%;
+    width: 75%;
+    margin: 6rem auto 0;
+    padding: 4rem 15%;
     background-color: var(--form-background);
     border-radius: 3px;
   }
   .login-title {
     margin-top: 0;
+  }
+  .side-image {
+    width: 100%;
+    height: auto;
   }
 }/*# sourceMappingURL=style.css.map */
