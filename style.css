@@ -48,7 +48,7 @@ body {
   margin-top: 0.8rem;
 }
 
-.input-field {
+.mail-field, .password-field {
   padding: 0 0;
   background-color: var(--form-background);
   border-radius: 5px;
@@ -61,12 +61,12 @@ body {
   position: relative;
 }
 
-.input-image {
+.mail-image, .lock-image {
   width: 6%;
   height: auto;
 }
 
-.input-textbox {
+.mail-textbox, .password-textbox {
   height: 2rem;
   width: 85%;
   background-color: var(--form-background);
