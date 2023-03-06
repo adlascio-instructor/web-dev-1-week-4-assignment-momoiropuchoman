@@ -32,7 +32,7 @@ function addFocusToPassword() {
 
 function removeFocusFromPassword() {
     const lockImage = document.querySelector(".lock-image")
-    lockImage.src = "images/mail.svg"
+    lockImage.src = "images/lock.svg"
 
     const passwordField = document.querySelector(".password-field")
     passwordField.style.border = "1px solid var(--text-base)"
