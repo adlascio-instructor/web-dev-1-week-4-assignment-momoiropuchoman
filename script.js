@@ -6,6 +6,10 @@ const passwordTextbox = document.querySelector(".password-textbox")
 passwordTextbox.addEventListener("focus", addFocusToPassword)
 passwordTextbox.addEventListener("blur", removeFocusFromPassword)
 
+const passwordVisibleImage = document.querySelector(".password-visible-image")
+passwordVisibleImage.addEventListener("mousedown", changeToVisible)
+passwordVisibleImage.addEventListener("mouseup", changeToInvisible)
+
 function addFocusToMail() {
     const mailImage = document.querySelector(".mail-image")
     mailImage.src = "images/mail-focus.svg"
@@ -37,3 +41,12 @@ function removeFocusFromPassword() {
     const passwordField = document.querySelector(".password-field")
     passwordField.style.border = "1px solid var(--text-base)"
 }
+
+function changeToVisible() {
+    passwordTextbox.type = "text"
+}
+
+function changeToInvisible() {
+    passwordTextbox.type = "password"
+}
+
