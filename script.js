@@ -7,7 +7,8 @@ passwordTextbox.addEventListener("focus", addFocusToPassword)
 passwordTextbox.addEventListener("blur", removeFocusFromPassword)
 
 const passwordVisibleImage = document.querySelector(".password-visible-image")
-passwordVisibleImage.addEventListener("click", switchPasswordVisibility)
+passwordVisibleImage.addEventListener("mousedown", changeToVisible)
+passwordVisibleImage.addEventListener("mouseup", changeToInvisible)
 
 function addFocusToMail() {
     const mailImage = document.querySelector(".mail-image")
@@ -41,10 +42,11 @@ function removeFocusFromPassword() {
     passwordField.style.border = "1px solid var(--text-base)"
 }
 
-function switchPasswordVisibility() {
-    if(passwordTextbox.type === "text") {
-        passwordTextbox.type = "password"
-    } else {
-        passwordTextbox.type = "text"
-    }
+function changeToVisible() {
+    passwordTextbox.type = "text"
 }
+
+function changeToInvisible() {
+    passwordTextbox.type = "password"
+}
+
